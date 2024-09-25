@@ -1,0 +1,19 @@
+ul {
+    display: flex; 
+    flex-wrap: wrap;
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+li {
+    background-color: #007bff; 
+    color: white; 
+    padding: 20px; 
+    margin: 5px; 
+    border-radius: 5px; 
+    width: calc(33.33% - 10px); 
+    box-sizing: border-box; 
+    font-family: Arial, sans-serif; 
+    font-size: 16px;
+}
